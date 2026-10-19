@@ -91,7 +91,7 @@ export class DDoSBoss extends Boss {
     const gs = this.scene;
     const W = gs.scale.width;
     const s = this.ft / 1000;
-    this.x = W / 2 + Math.sin(s * 0.7) * W * 0.28;
+    this.x = W / 2 + Math.sin(s * 0.7) * W * 0.2;
     this.y = this.targetY + Math.sin(s * 1.4) * 14;
 
     this.attackTimer -= delta;
